@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 @section('main')
+<div class="cta-homepage">
+    <a href="/">Homepage</a>
+</div>
 <form method="POST" action="{{route('bookings.store')}}">
-    <div class="form-group">
+    <div class="form-group container-form">
         @csrf
         <label for="guest_name">Guest full name</label>
         <input type="text" name="guest_full_name" class="form-control" id="guest_name" placeholder="Full name">
@@ -17,6 +20,8 @@
         <label for="guest_details">More Details</label>
         <textarea type="text" name="more_details" class="form-control" id="guest_details" placeholder="More details"></textarea>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <div class="submit-container">
+        <button type="submit" class="btn btn-default">Submit</button>
+    </div>
 </form>
 @endsection

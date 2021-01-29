@@ -96,3 +96,40 @@
 label {
     margin-top: 20px;
 }
+
+.cta-homepage {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.cta-homepage a {
+    border: 2px solid rgb(46, 58, 70);
+    padding: 5px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(46, 58, 70);
+}
+
+.cta-homepage a:hover {
+    background-color:rgb(46, 58, 70);
+    color:#fff;
+}
+
+.record-success {
+    text-align: center;
+}
+
+.container-form {
+    width: 70%;
+    margin: auto;
+}
+
+.submit-container {
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+}

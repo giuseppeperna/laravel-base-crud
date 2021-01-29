@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('main')
+<div class="cta-homepage">
+    <a href="/">Homepage</a>
+</div>
 <div class="bookings-container container">
     @foreach ($bookings as $booking)
     <div class="booking">
