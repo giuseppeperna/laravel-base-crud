@@ -24,7 +24,7 @@ class BookingFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'guest_full_name' => 'bail|required|string|min:6',
+            'guest_full_name' => 'bail|required|alpha|min:6',
             'guest_credit_card' => 'bail|required|string|size:16',
             'room' => 'bail|required|numeric',
             'from_date' => 'bail|required',

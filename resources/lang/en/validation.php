@@ -146,6 +146,13 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'guest_full_name'=>'Guest full name',
+        'guest_credit_card'=>'Credit Card',
+        'room'=>'Room',
+        'from_date'=>'Check-in',
+        'to_date'=>'Check-out',
+        'more_details'=>'More Details'
+    ],
 
 ];
